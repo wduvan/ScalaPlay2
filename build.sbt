@@ -1,8 +1,8 @@
-name := "ScalaSpringWebAPI_play"
+name := "ScalaPlay2"
  
 version := "1.0" 
       
-lazy val `scalaspringwebapi_play` = (project in file(".")).enablePlugins(PlayScala)
+lazy val `scalaplay2` = (project in file(".")).enablePlugins(PlayScala)
 
 resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
       
